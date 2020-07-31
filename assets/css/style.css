@@ -1,12 +1,18 @@
+
+
+/* telling every element on the page to not have any margin or border unless we explicitly tell it to*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/* declaring background color for the body*/
 
 body {
     background-color: #d9dcd6;
 }
+
+/* setting the padding, font type, background color, and text color of the header*/
 
 header {
     padding: 20px;
@@ -15,16 +21,21 @@ header {
     color: #ffffff;
 }
 
+/* setting the header navigation links  to display across the page and their font size*/
+
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* setting the "seo" letters to be a different color*/
+
 header h1 .seo {
     color: #d9dcd6;
 }
 
-header div {
+/* setting the nav links positioning and font size*/
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,24 +43,27 @@ header div {
     font-size: 20px;
 }
 
-header div ul {
+header nav ul {
     list-style-type: none;
 }
 
-header div ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* setting all the a elements color and text*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
+/* setting all the p element tags font size*/
 
 p {
     font-size: 16px;
 }
 
+
+/* setting the attributes for the hero image / first pic seen on the website*/
 .hero {
     height: 800px;
     width: 100%;
@@ -58,23 +72,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* setting the float left element*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* setting the float right element*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* setting the content class section*/
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* setting benefits class section which corresponds to the right side div block*/
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,16 +101,20 @@ p {
     background-color: #2589bd;
 }
 
+/* declaring the benefits lead color and margins*/
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+
+/* declaring the benefit brand margin and color*/
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* declaring the benefit brand margin and color*/
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
@@ -115,7 +134,7 @@ p {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* the next three declarations are setting properties for the images inside the benefits section*/
 .benefit-lead img {
     display: block;
     margin: 10px auto;
@@ -133,7 +152,7 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* setting the properties for the div boxes inside content section*/
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,6 +179,7 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
+/* the next three declarations are setting the max height for the images*/
 
 .search-engine-optimization img {
     max-height: 200px;
@@ -172,6 +192,7 @@ p {
 .social-media-marketing img {
     max-height: 200px;
 }
+/* the next three declarations are setting the margin bottom and font size for the headers inside the sections*/
 
 .search-engine-optimization h2 {
     margin-bottom: 20px;
@@ -188,6 +209,7 @@ p {
     font-size: 36px;
 }
 
+/* setting the footer properties*/
 footer {
     padding: 30px;
     clear: both;
@@ -195,9 +217,9 @@ footer {
     text-align: center;
     display: block;
 }
+/* setting the font size for the h2 element*/
 
 footer h2 {
     font-size: 20px;
 }
-
 
